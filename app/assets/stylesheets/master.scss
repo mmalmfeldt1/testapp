@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
 @import "bootstrap";
 
 .clear {
@@ -32,7 +33,9 @@ hr {
   font-style: italic;
   padding-top: 26px;
 }
-
+.sayings{
+  font-family: 'Lora', serif;
+}
 .links {
   padding-top: 26px;
 }
@@ -40,7 +43,18 @@ hr {
 .links a {
     color:black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;  
+  font-weight: bold;
+}
+h1 {
+    font-family: 'Lora', serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+h2 {
+   font-family: 'Lora', serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
 header {
   border-top: 9px solid #222222;
